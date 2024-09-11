@@ -1,0 +1,5 @@
+{
+    "servers": ["localhost:4444/user"], 
+    "refresh_time": 10,
+    "time_duration": 86400
+}
