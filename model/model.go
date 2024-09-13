@@ -5,3 +5,7 @@ type ConfigSettings struct{
 	RefreshTime int `json:"refresh_time"`
 	TimeDuration int64 `json:"time_duration"`
 }
+
+type Error struct{
+	Message string `json:"message"`
+}

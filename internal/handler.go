@@ -13,7 +13,8 @@ import (
 
 func ProxyHandler(c *gin.Context, config *model.ConfigSettings, Rdb *redis.Client, logger *slog.Logger) (interface{}, error) {
 	requestURL := config.Servers[0] + c.Request.RequestURI
-	// Serverlarni ko'paytirib tezlikni va yuklamani yanada oshirish mumkin
+	fmt.Println(requestURL)
+	// Serverlarni ko'paytirib tezlikni yanada oshirish mumkin
 	redisDB := caching.NewRedisRepo(Rdb)
 
 	resp, err := redisDB.CheackCache(c, requestURL)

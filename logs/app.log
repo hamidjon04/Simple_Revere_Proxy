@@ -1,3 +1,11 @@
 {"time":"2024-09-10T16:56:23.242744172+05:00","level":"ERROR","msg":"Configuratsiya file ochilmadi: open config.json: no such file or directory"}
 {"time":"2024-09-10T16:56:39.91609354+05:00","level":"ERROR","msg":"Configuratsiya filedagi ma'lumotlarni o'qib bo'lmadi: EOF"}
 {"time":"2024-09-10T16:59:08.422182804+05:00","level":"ERROR","msg":"Configuratsiya filedagi ma'lumotlarni o'qib bo'lmadi: json: cannot unmarshal array into Go value of type model.ConfigSettings"}
+{"time":"2024-09-12T18:03:56.372429658+05:00","level":"INFO","msg":"http://localhost:4444/nimadur request uchun response cachingda mavjud emas. So'rov asosiy serverga yuborildi."}
+{"time":"2024-09-12T18:03:56.372991969+05:00","level":"ERROR","msg":"Server bilan bog'lanishda yoki ma'lumotlarni olishda xatolik: Get \"http://localhost:4444/nimadur\": dial tcp 127.0.0.1:4444: connect: connection refused"}
+{"time":"2024-09-12T18:04:04.320028563+05:00","level":"INFO","msg":"http://localhost:4444/kimdur request uchun response cachingda mavjud emas. So'rov asosiy serverga yuborildi."}
+{"time":"2024-09-12T18:04:04.320238784+05:00","level":"ERROR","msg":"Server bilan bog'lanishda yoki ma'lumotlarni olishda xatolik: Get \"http://localhost:4444/kimdur\": dial tcp 127.0.0.1:4444: connect: connection refused"}
+{"time":"2024-09-12T18:07:03.067451356+05:00","level":"INFO","msg":"http://localhost:4444/kimdur request uchun response cachingda mavjud emas. So'rov asosiy serverga yuborildi."}
+{"time":"2024-09-12T18:07:03.067747277+05:00","level":"ERROR","msg":"Server bilan bog'lanishda yoki ma'lumotlarni olishda xatolik: Get \"http://localhost:4444/kimdur\": dial tcp 127.0.0.1:4444: connect: connection refused"}
+{"time":"2024-09-12T18:15:19.843359878+05:00","level":"INFO","msg":"http://localhost:4444/kimdur request uchun response cachingda mavjud emas. So'rov asosiy serverga yuborildi."}
+{"time":"2024-09-12T18:15:19.843630109+05:00","level":"ERROR","msg":"Server bilan bog'lanishda yoki ma'lumotlarni olishda xatolik: Get \"http://localhost:4444/kimdur\": dial tcp 127.0.0.1:4444: connect: connection refused"}
